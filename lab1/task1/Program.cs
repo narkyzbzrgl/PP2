@@ -41,8 +41,8 @@ namespace task1
                 Console.WriteLine(cnt);
                 for (int i = 0; i < n; i++)
                 {
-                    if (isprime(a[i]))                 //проверяет простых чисел и сохраняет
-                        Console.Write(a[i] + " ");           //выводит простых чисел
+                    if (isprime(a[i]))                 //проверяет простые числа и сохраняет
+                        Console.Write(a[i] + " ");           //выводит простые числа
                 }
                 Console.ReadKey();
             }
